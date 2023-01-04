@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+</head>
+
+<body>
+    <h1>Forms demo</h1>
+    <form action="">
+        <p>
+            <label for="Username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="Username" name="username">
+        </p>
+        <p>
+            <label for="Password">Enter Password:</label>
+            <input id="password" type="password" placeholder="Password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose Color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label>
+                Enter your Age:
+                <input type="number" placeholder="Enter a Number" name="number">
+            </label>
+        </p>
+        <button>Submit</button>
+    </form>
+    <form action="https://www.google.com/search">
+
+        <input type="text" name="q">
+        <button>Search on Google</button>
+    </form>
+    <h2>New things</h2>
+    <form action="/birds">
+        <input type="Checkbox" name="Agree_tos" id="Agree">
+        <label for="agree">I agree to Terms & Conditions</label>
+        <p> 
+            <h3>ARe you a robot</h3>
+            <label for="Yes">Yes</label>
+            <input type="radio" name="size" id="Yes" value="Yes">
+            <label for="No">No</label>
+            <input type="radio" name="size" id="No" value="No">
+            <label>Maybe! Iam a Robot</label>
+            <input type="radio" name="size" id="Maybe! Iam a Robot" value="Maybe! Iam a Robot">
+        </p>
+        <p>
+            <label for="Hero">YOur favourite superhero</label>
+            <select name="Hero" id="Hero">
+                <option value="">Select Hero</option>
+                <option value="Batman">Batman</option>
+                <option value="Deadpool">Deadpool</option>
+                <option value="Superman">Superman</option>
+            </select>
+        </p>
+        <p>
+            <label for="hero">On the scale of 1 to 10 how much do you like superheroes</label>
+        <input type="range" id="hero" min="1" max="10">
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
